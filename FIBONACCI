@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main (void){
+	int min, max,suma;
+	int inicio=0;
+	cout<< "INTRODUZCA EL VALOR MENOR: "<<endl;
+	cin>> min;
+	cout<< "INTRODUZCA EL VALOR MAYOR: "<<endl;
+	cin>> max;
+	suma=min;
+	do{ 
+		inicio=inicio+suma;
+		suma=suma+1;
+		}while(suma<=max);
+			cout<< "LA SUMA ES: "<< inicio <<endl;
+}
+
+
+
